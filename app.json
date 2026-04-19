@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://t.me/x_vrubhi",
-    "repository": "https://x_vrubhi",
+    "repository": "https://t.me/x_vrubhi",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
