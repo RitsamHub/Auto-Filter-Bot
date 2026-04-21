@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://github.com/NBBotz/Images/blob/main/Lucia-Filter-Bot.jpeg">
+  <img src="https://github.com/RitsamHub/Images/blob/main/Lucia-Filter-Bot.jpeg">
 </p>
 
-<h1 align="center">Lucia Filter Bot</h1>
+<h1 align="center">𝐖𝖎𝔣𝔲~✨❣️ Filter Bot</h1>
 
 <p align="center">
-  <a href="https://t.me/SilentXBotz">
+  <a href="https://t.me/x_vrubhi">
     <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
   </a>
-  <a href="http://t.me/Lucia_Filter_Bot">
+  <a href="http://t.me/Wifu_FilterBot">
     <img src="https://img.shields.io/badge/Demo%20Bot-Click%20Here-green?style=for-the-badge&logo=telegram">
   </a>
 </p>
