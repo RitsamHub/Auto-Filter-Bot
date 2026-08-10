@@ -189,7 +189,7 @@ class script(object):
 🗓️ 02 ᴍᴏɴᴛʜꜱ ➪ 120 ₹ / 120 ⭐
 🗓️ 03 ᴍᴏɴᴛʜꜱ ➪ 220 ₹ / 220 ⭐
 
-📜 <a href='https://t.me/x_vrubhi'>ᴄʜᴇᴄᴋ ᴘʀᴏᴏꜰꜱ</a>
+📜 <a href='https://t.me/Samveera7'>ᴄʜᴇᴄᴋ ᴘʀᴏᴏꜰꜱ</a>
 
 ⚠️ ɪᴍᴘᴏʀᴛᴀɴᴛ:
 1️⃣ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
@@ -246,7 +246,7 @@ class script(object):
     CAPTION = """<b>{file_name} 韋巴努
 〰️〰️〰️〰️〰️〰️〰️〰️〰</b>
 <b><pre>𝙵𝚒𝚕𝚎 𝚂𝚒𝚣𝚎 ♻️ ➥ {file_size}</pre></b>
-<blockquote>𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 ➥ <a href = 'http://t.me/x_vrubhi' >ꪜ𝓻𝓾𝒃𝒉༏</a></blockquote>"""
+<blockquote>𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 ➥ <a href = 'http://t.me/Samveera7' >Samveera ♡</a></blockquote>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🎬 ᴛɪᴛʟᴇ: <a href={url}>{title}</a>
