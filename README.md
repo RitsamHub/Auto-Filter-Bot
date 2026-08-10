@@ -2,13 +2,13 @@
   <img src="https://github.com/RitsamHub/Images/blob/main/Lucia-Filter-Bot.jpeg">
 </p>
 
-<h1 align="center">𝐖𝖎𝔣𝔲~✨❣️ Filter Bot</h1>
+<h1 align="center">Samveera ♡ Filter Bot</h1>
 
 <p align="center">
-  <a href="https://t.me/x_vrubhi">
+  <a href="https://t.me/Samveera7">
     <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
   </a>
-  <a href="http://t.me/Wifu_FilterBot">
+  <a href="http://t.me/Samveera_Bot">
     <img src="https://img.shields.io/badge/Demo%20Bot-Click%20Here-green?style=for-the-badge&logo=telegram">
   </a>
 </p>
@@ -129,7 +129,7 @@ Choose A Deployment Method Below And Get Your Bot Running Instantly!
 Click The Button Below To Instantly Deploy Your Bot On **Heroku**.  
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/NBBotz/Auto-Filter-Bot">
+  <a href="https://heroku.com/deploy?template=https://github.com/RitsamHub/Auto-Filter-Bot">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku">
   </a>
 </p>
@@ -142,7 +142,7 @@ Click The Button Below To Instantly Deploy Your Bot On **Heroku**.
 Deploy On **Koyeb** In One Click!  
 
 <p align="center">
-  <a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/NBBotz/Auto-Filter-Bot&branch=SilentXBotz &name=LuciaFilterBot">
+  <a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/RitsamHub/Auto-Filter-Bot&branch=SilentXBotz &name=LuciaFilterBot">
     <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
   </a>
 </p>
@@ -157,7 +157,7 @@ Run The Following Commands To Deploy The Bot On A **VPS**:
 
 ```bash
 mkdir SilentXBotz && cd SilentXBotz
-git clone https://github.com/NBBotz/Auto-Filter-Bot
+git clone https://github.com/RitsamHub/Auto-Filter-Bot
 cd Auto-Filter-Bot
 python3 -m venv venv
 source venv/bin/activate
@@ -170,7 +170,7 @@ python3 bot.py
 # ! Errors 
 - This Repository May Contain Some Errors. If You Encounter Any Issues, Please Let Us Know, And We Will Do Our Best To Resolve Them.
 <p align="center">
-  <a href="https://t.me/SilentXBotz">
+  <a href="https://t.me/Samveera7">
     <img src="https://img.shields.io/badge/Report-Error-red?style=for-the-badge&logo=telegram" alt="Report Error">
   </a>
 </p>
