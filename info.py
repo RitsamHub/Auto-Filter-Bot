@@ -51,10 +51,10 @@ MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type Tru
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://pankajcuaudhary0:Vebhav21218219@cluster0.dai7crc.mongodb.net/")
 DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432")) 
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/x_vrubhi')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/x_vrubhi')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Vebanu_x')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/x_vrubhi')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Samveera7')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Samveera7')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Samveera7')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/Samveera7')
 
 AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002359664148") # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-100')
