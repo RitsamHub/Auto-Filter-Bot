@@ -639,7 +639,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	    )                
         except Exception as e:
             LOGGER.error(e)
-            await query.answer(f"⚠️ SOMETHING WENT WRONG \n\n{e}", show_alert=True)
+            await query.answer(f"⚠️ Something went wrong. Please try again later.", show_alert=True)
             return
            
     
