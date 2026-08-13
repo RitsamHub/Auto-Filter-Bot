@@ -16,7 +16,7 @@ class script(object):
 ├📕 ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├✏️ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
 ├💾 ᴅᴀᴛᴀʙᴀꜱᴇ : <a href=https://cloud.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a>
-├📊 ʙᴜɪʟᴅ ᴠᴇʀꜱɪᴏɴ : V4.3 [ ꜱᴛᴀʙʟᴇ ]
+├📊 ʙᴜɪʟᴅ ᴠᴇʀꜱɪᴏɴ : V1.O [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
 
     FORCESUB_TEXT = """<b>⚠️ ᴀᴄᴄᴇꜱꜱ ᴅᴇɴɪᴇᴅ ⚠️
