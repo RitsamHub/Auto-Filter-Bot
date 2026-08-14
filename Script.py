@@ -243,7 +243,7 @@ class script(object):
 
 ᴍᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>{file_name} 韋巴努
+    CAPTION = """<b>{file_name} 薩姆維拉
 〰️〰️〰️〰️〰️〰️〰️〰️〰</b>
 <b><pre>𝙵𝚒𝚕𝚎 𝚂𝚒𝚣𝚎 ♻️ ➥ {file_size}</pre></b>
 <blockquote>𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 ➥ <a href = 'http://t.me/Samveera7' >Samveera ♡</a></blockquote>"""
