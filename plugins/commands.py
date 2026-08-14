@@ -6,6 +6,7 @@ import random
 import asyncio
 import time
 import pytz
+from pyrogram.enums import ButtonStyle
 from logging_helper import LOGGER
 from .pm_filter import auto_filter 
 from Script import script
@@ -93,24 +94,55 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🧧 ᴛʀᴇɴᴅɪɴɢ', callback_data="topsearch"),
-                    InlineKeyboardButton('🎟️ ᴜᴘɢʀᴀᴅᴇ', callback_data="premium"),
-                ],[
-                    InlineKeyboardButton('♻️ ᴅᴍᴄᴀ', callback_data='disclaimer'),
-                    InlineKeyboardButton('👤 ᴀʙᴏᴜᴛ', callback_data='me')
-                ],[
-                    InlineKeyboardButton('🚫 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🚫', callback_data="earn")
-                ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
-            photo=random.choice(PICS),
-            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML,
-        )
-        return
+    InlineKeyboardButton(
+        '+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +',
+        url=f'http://telegram.me/{temp.U_NAME}?startgroup=true',
+        style=ButtonStyle.PRIMARY
+    )
+],[
+    InlineKeyboardButton(
+        '🧧 ᴛʀᴇɴᴅɪɴɢ',
+        callback_data="topsearch",
+        style=ButtonStyle.PRIMARY
+    ),
+    InlineKeyboardButton(
+        '🎟️ ᴜᴘɢʀᴀᴅᴇ',
+        callback_data="premium",
+        style=ButtonStyle.SUCCESS
+    ),
+],[
+    InlineKeyboardButton(
+        '♻️ ᴅᴍᴄᴀ',
+        callback_data='disclaimer',
+        style=ButtonStyle.DANGER
+    ),
+    InlineKeyboardButton(
+        '👤 ᴀʙᴏᴜᴛ',
+        callback_data='me',
+        style=ButtonStyle.PRIMARY
+    )
+],[
+    InlineKeyboardButton(
+        '🚫 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🚫',
+        callback_data="earn",
+        style=ButtonStyle.SUCCESS
+    )
+]]
+
+reply_markup = InlineKeyboardMarkup(buttons)
+
+await message.reply_photo(
+    photo=random.choice(PICS),
+    caption=script.START_TXT.format(
+        message.from_user.mention,
+        temp.U_NAME,
+        temp.B_NAME
+    ),
+    reply_markup=reply_markup,
+    parse_mode=enums.ParseMode.HTML,
+)
+
+return
         
     if message.command[1].startswith("reff_"):
         try:
