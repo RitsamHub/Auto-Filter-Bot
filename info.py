@@ -37,9 +37,9 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1003915019640')
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003802183439')) 
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002359664148') 
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1003749190747') 
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1003749190747') 
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002359664148') 
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://TheDX:Vebhav21218219@cluster0.pzo3xlc.mongodb.net/")
@@ -51,7 +51,7 @@ MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type Tru
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Samveera:Samveera7@cluster0.njue6xj.mongodb.net/")
 DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "510")) 
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Samveera7')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+eDOqA87E8vg4NDI1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Samveera7')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Samveera7')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/Samveera7')
