@@ -96,36 +96,30 @@ async def start(client, message):
         buttons = [[
     InlineKeyboardButton(
         '+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +',
-        url=f'http://telegram.me/{temp.U_NAME}?startgroup=true',
-        style=ButtonStyle.PRIMARY
+        url=f'http://telegram.me/{temp.U_NAME}?startgroup=true'
     )
 ],[
     InlineKeyboardButton(
         '🧧 ᴛʀᴇɴᴅɪɴɢ',
-        callback_data="topsearch",
-        style=ButtonStyle.PRIMARY
+        callback_data="topsearch"
     ),
     InlineKeyboardButton(
         '🎟️ ᴜᴘɢʀᴀᴅᴇ',
-        callback_data="premium",
-        style=ButtonStyle.SUCCESS
+        callback_data="premium"
     ),
 ],[
     InlineKeyboardButton(
         '♻️ ᴅᴍᴄᴀ',
-        callback_data='disclaimer',
-        style=ButtonStyle.DANGER
+        callback_data='disclaimer'
     ),
     InlineKeyboardButton(
         '👤 ᴀʙᴏᴜᴛ',
-        callback_data='me',
-        style=ButtonStyle.PRIMARY
+        callback_data='me'
     )
 ],[
     InlineKeyboardButton(
         '🚫 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🚫',
-        callback_data="earn",
-        style=ButtonStyle.SUCCESS
+        callback_data="earn"
     )
 ]]
 
