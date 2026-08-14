@@ -47,9 +47,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SilentXBotz_files')
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
-MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), True) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432")) 
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type True For Turn On MULTIPLE DB FUNTION 
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Samveera:Samveera7@cluster0.njue6xj.mongodb.net/")
+DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "510")) 
 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Samveera7')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Samveera7')
